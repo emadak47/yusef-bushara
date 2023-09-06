@@ -19,7 +19,7 @@ export default function Home() {
                 <meta name="description" content="About Me" />
             </Head>
             <TransitionEffect />
-            <main className='flex w-full flex-col items-center justify-center dark:text-light'>
+            <main className='flex w-full flex-col items-center justify-center dark:text-light text-dark'>
                 <Layout className='pt-16'>
                     {/* <Animated text="Exercise Read Code" className='mb-16 lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8' /> */}
 

@@ -85,7 +85,7 @@ const NavBar = () => {
 
     return (
         <header
-            className='w-full px-32 py-8 font-medium flex items-center justify-between dark:text-light relative z-10 lg:px-16 md:px-12 sm:px-8'
+            className='w-full px-32 py-8 font-medium flex items-center justify-between dark:text-light text-dark relative z-10 lg:px-16 md:px-12 sm:px-8'
         >
             <button className='flex-col items-center justify-center hidden lg:flex' onClick={handleClick}>
                 <span className={`bg-dark dark:bg-light block transition-all h-0.5 w-6 rounded-sm ${isOpen ? 'rotate-45 translate-y-1' : '-translate-y-0.5'}`}></span>
@@ -117,7 +117,7 @@ const NavBar = () => {
                     </CustomIcon>
                     <button
                         onClick={() => setMode(mode === "light" ? "dark" : "light")}
-                        className={`ml-3 flex items-center justify-center rounded-full p-1
+                        className={`ml-3 flex items-center justify-center rounded-full p-1 w-6 mx-4
                         ${mode === "light" ? "bg-dark text-light" : "bg-light text-dark"}`}
                     >
                         {mode === "dark" ?
@@ -139,10 +139,10 @@ const NavBar = () => {
                             rounded-lg backdrop-blur-md py-32'
                     >
                         <nav className='flex items-center flex-col justify-cetner'>
-                            <CustomMobileLink href="/" title="Home" className='' toggle={handleClick} />
-                            <CustomMobileLink href="/about" title="About" className='' toggle={handleClick} />
-                            <CustomMobileLink href="/projects" title="Projects" className='' toggle={handleClick} />
-                            <CustomMobileLink href="/articles" title="Articles" className='' toggle={handleClick} />
+                            <CustomMobileLink href="/" title="About" className='' toggle={handleClick} />
+                            <CustomMobileLink href="/essays" title="Essays" className='' toggle={handleClick} />
+                            <CustomMobileLink href="/poetry" title="Poetry" className='' toggle={handleClick} />
+                            <CustomMobileLink href="/short-stories" title="Creative Non-Fiction" className='' toggle={handleClick} />
                         </nav>
 
                         <nav className='flex items-center justify-center flex-wrap mt-2'>
@@ -163,7 +163,7 @@ const NavBar = () => {
                         
                             <button
                                 onClick={() => setMode(mode === "light" ? "dark" : "light")}
-                                className={`ml-3 flex items-center justify-center rounded-full p-1
+                                className={`ml-3 flex items-center justify-center rounded-full p-1 w-6 mx-3 sm:mx-1
                                 ${mode === "light" ? "bg-dark text-light" : "bg-light text-dark"}`}
                             >
                                 {mode === "dark" ?

@@ -10,7 +10,7 @@ const useThemeSwitcher = () => {
 
         function handleChange() {
             if (userPref) {
-                let check = userPref === "dark" ? "dark" : "dark";
+                let check = userPref === "dark" ? "dark" : "light";
                 setMode(check);
 
                 if (check === "dark") {
