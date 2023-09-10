@@ -102,7 +102,7 @@ const shortStories = () => {
                            title="Nuff Trains"
                            summary=""
                            time="Summer 2023"
-                           link="/docs/Short Stories/nuff trains.pdf" 
+                           link="/docs/Short Stories/nuff trains .pdf" 
                            img={article1}
                         />
                         <FeaturedShortStory

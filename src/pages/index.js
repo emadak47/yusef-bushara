@@ -24,7 +24,7 @@ export default function Home() {
                     {/* <Animated text="Exercise Read Code" className='mb-16 lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8' /> */}
 
                     <div className='grid w-full grid-cols-8 gap-16'>
-                        <div className='col-span-4 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8'>
+                        <div className='col-span-4 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8 sm:col-span-8 xs:col-span-6'>
                             <h2 className='mb-4 text-xl font-bold uppercase text-dark/75 dark:text-light/75'>Biography</h2>
 
                             <p className='font-medium'>Hi, I’m Yusef Bushara. Currently a fourth year student at The University of Hong Kong, pursuing a major in English Studies. This website houses a sample of the writing I’ve completed as a part of my studies, and leisurely, during my undergraduate years. It’s a glimpse into how writing helps me become.
@@ -39,7 +39,7 @@ export default function Home() {
                         </div>
 
                         <div className="col-span-4 relative h-max rounded-2xl border-2 border-solid border-dark bg-light 
-                                        p-8 dark:bg-dark dark:border-light xl:col-span-4 md:order-1 md:col-span-8"
+                                        p-8 dark:bg-dark dark:border-light xl:col-span-4 md:order-1 md:col-span-8 sm:col-span-8 sm:order-1 xs:col-span-6 xs:order-1"
                         >
                             <div className="absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark dark:bg-light" />
                             <Image 
@@ -47,8 +47,8 @@ export default function Home() {
                                 alt="Yusef" 
                                 className='w-full h-auto rounded-2xl' 
                                 priority
-                                sizes="(max-width: 768px) 100vw,
-                                       (max-width: 1200px) 50vw,
+                                sizes=" (max-width: 768px) 100vw,
+                                        (max-width: 1200px) 50vw,
                                         33vw"
                             />
                         </div>
